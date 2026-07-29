@@ -1,0 +1,55 @@
+/**
+ * Admin Panel Stylesheet
+ * Online Cracker Shop
+ */
+
+.admin-sidebar {
+    width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.admin-content {
+    margin-left: 260px;
+    padding: 30px;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+}
+
+.stat-card {
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.stat-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+@media (max-width: 991.88px) {
+    .admin-sidebar {
+        position: relative;
+        width: 100%;
+        min-height: auto !important;
+    }
+    .admin-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,42 @@
+/**
+ * Responsive Rules
+ * Online Cracker Shop
+ */
+
+@media (max-width: 991.88px) {
+    .hero-banner {
+        padding: 60px 0;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .max-w-350 {
+        max-width: 100% !important;
+    }
+    
+    .product-card .card-img-wrapper {
+        height: 180px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .top-bar {
+        font-size: 0.8rem;
+    }
+    
+    .product-card .card-img-wrapper {
+        height: 160px;
+    }
+    
+    .price-offer {
+        font-size: 1.1rem;
+    }
+    
+    .hero-banner h1 {
+        font-size: 2rem;
+    }
+    
+    .btn-primary-custom, .btn-secondary-custom {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
