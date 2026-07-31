@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Kannan Pattasu Ulagam | Premium Festive Fireworks & Sparklers Online</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Top Announcement Banner -->
+<div class="top-bar py-2 text-white text-center bg-danger shadow-sm">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <span class="fs-7"><i class="bi bi-fire text-warning me-2"></i><strong>Diwali Mega Sale!</strong> Flat 50% OFF on all Sparklers & Combo Gift Boxes!</span>
+        <div class="top-contacts d-none d-md-block fs-7">
+            <span class="me-3"><i class="bi bi-telephone-fill me-1"></i> +91 98765 43210</span>
+            <span><i class="bi bi-geo-alt-fill me-1"></i> Sivakasi Road, Virudhunagar</span>
+        </div>
+    </div>
+</div>
+
+<!-- Main Sticky Navbar -->
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark shadow">
+    <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+            <i class="bi bi-rocket-takeoff-fill text-warning me-2 fs-2 spark-icon"></i>
+            <div>
+                <span class="fw-bold fs-5 text-white letter-spacing-1">SRI KANNAN <span class="text-warning">PATTASU ULAGAM</span></span>
+                <small class="d-block text-warning-50 fs-8">SIVAKASI DIRECT FIREWORKS</small>
+            </div>
+        </a>
+
+        <!-- Mobile Toggler -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links & Search -->
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-medium ms-lg-4">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#products">Shop Fireworks</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="#my-orders" data-bs-toggle="modal" data-bs-target="#ordersModal"><i class="bi bi-bag-check me-1"></i> My Orders</a></li>
+            </ul>
+
+            <!-- Live Search Bar -->
+            <div class="search-box position-relative me-lg-3 my-2 my-lg-0 flex-grow-1 max-w-300">
+                <div class="input-group">
+                    <input type="text" id="searchInput" class="form-control bg-secondary text-white border-0 rounded-pill pe-5" placeholder="Search sparklers, rockets..." autocomplete="off">
+                    <button class="btn text-warning position-absolute end-0 top-0 h-100 px-3 z-10 border-0" type="button">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Cart Trigger Button -->
+            <button class="btn btn-outline-warning rounded-pill position-relative px-3 py-2" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas">
+                <i class="bi bi-cart3 me-1"></i> Cart
+                <span id="cartBadgeCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger shadow">
+                    0
+                </span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-banner text-center text-lg-start mb-5 py-5 text-white">
+    <div class="container py-4">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <span class="badge bg-warning text-dark px-3 py-2 rounded-pill fs-7 mb-3 fw-bold">
+                    <i class="bi bi-stars me-1"></i> DIRECT SIVAKASI FACTORY PRICES
+                </span>
+                <h1 class="display-4 fw-extrabold mb-3">
+                    Illuminate Your <span class="text-warning">Celebrations!</span>
+                </h1>
+                <p class="lead text-light mb-4">
+                    Explore Sri Kannan Pattasu Ulagam's finest range of certified eco-friendly fireworks, sparkling fountains, colorful sky shots, and festive gift combo boxes with fast doorstep delivery.
+                </p>
+                <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                    <a href="#products" class="btn btn-warning btn-lg rounded-pill fw-bold text-dark px-4 py-3 shadow">
+                        <i class="bi bi-bag-fill me-2"></i> Shop Fireworks Now
+                    </a>
+                    <a href="#about" class="btn btn-outline-light btn-lg rounded-pill fw-bold px-4 py-3">
+                        <i class="bi bi-info-circle me-2"></i> Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5 d-none d-lg-block text-center">
+                <div class="card glass-dark-card p-4 text-white rounded-4 border border-warning shadow-lg">
+                    <i class="bi bi-box-seam text-warning display-1 d-block mb-2 spark-icon"></i>
+                    <h4 class="fw-bold text-warning">Diwali Family Dhamaka Combo</h4>
+                    <p class="fs-7 text-white-50">25 Variety Fireworks Box for Whole Family</p>
+                    <div class="d-flex justify-content-center align-items-center gap-3 my-3">
+                        <span class="text-decoration-line-through text-white-50 fs-5">₹ 3,500.00</span>
+                        <span class="text-warning fs-2 fw-bold">₹ 1,799.00</span>
+                    </div>
+                    <button class="btn btn-warning w-100 rounded-pill fw-bold text-dark btn-quick-add" data-id="11">
+                        Add Combo to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trust Badges -->
+<div class="container mb-5">
+    <div class="row g-3">
+        <div class="col-md-3 col-6">
+            <div class="card glass-card border-0 p-3 text-center h-100 shadow-sm">
+                <i class="bi bi-shield-check text-danger display-6 mb-2"></i>
+                <h6 class="fw-bold mb-1">100% Green Crackers</h6>
+                <small class="text-muted">Eco-friendly certified quality</small>
+            </div>
+        </div>
+        <div class="col-md-3 col-6">
+            <div class="card glass-card border-0 p-3 text-center h-100 shadow-sm">
+                <i class="bi bi-truck text-warning display-6 mb-2"></i>
+                <h6 class="fw-bold mb-1">Express Delivery</h6>
+                <small class="text-muted">Safe doorstep transport</small>
+            </div>
+        </div>
+        <div class="col-md-3 col-6">
+            <div class="card glass-card border-0 p-3 text-center h-100 shadow-sm">
+                <i class="bi bi-tags text-danger display-6 mb-2"></i>
+                <h6 class="fw-bold mb-1">Factory Prices</h6>
+                <small class="text-muted">Direct Sivakasi rates</small>
+            </div>
+        </div>
+        <div class="col-md-3 col-6">
+            <div class="card glass-card border-0 p-3 text-center h-100 shadow-sm">
+                <i class="bi bi-cash-coin text-warning display-6 mb-2"></i>
+                <h6 class="fw-bold mb-1">Cash On Delivery</h6>
+                <small class="text-muted">Pay upon doorstep receipt</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Main Catalog Section -->
+<section id="products" class="container mb-5">
+    <div class="d-flex justify-content-between align-items-end mb-4 flex-wrap gap-2">
+        <div>
+            <span class="text-danger fw-bold text-uppercase fs-7 letter-spacing-1">Sivakasi Inventory</span>
+            <h2 class="fw-bold text-dark mb-0">Shop Festive Fireworks</h2>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="d-flex gap-2 flex-wrap" id="categoryFilterBtns">
+            <button class="btn btn-danger btn-sm rounded-pill filter-btn active" data-cat="all">All Items</button>
+            <button class="btn btn-outline-danger btn-sm rounded-pill filter-btn" data-cat="sparklers">Sparklers</button>
+            <button class="btn btn-outline-danger btn-sm rounded-pill filter-btn" data-cat="chakkars">Ground Chakkars</button>
+            <button class="btn btn-outline-danger btn-sm rounded-pill filter-btn" data-cat="flower-pots">Flower Pots</button>
+            <button class="btn btn-outline-danger btn-sm rounded-pill filter-btn" data-cat="rockets">Sky Rockets</button>
+            <button class="btn btn-outline-danger btn-sm rounded-pill filter-btn" data-cat="sound">Sound Crackers</button>
+            <button class="btn btn-outline-danger btn-sm rounded-pill filter-btn" data-cat="combos">Gift Boxes</button>
+        </div>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="row g-4" id="productsGridContainer">
+        <!-- Injected via JavaScript -->
+    </div>
+</section>
+
+<!-- About Store Section -->
+<section id="about" class="bg-white py-5 border-top border-bottom mb-5">
+    <div class="container py-3">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <span class="text-danger fw-bold text-uppercase fs-7">Our Heritage</span>
+                <h2 class="fw-bold mb-3">15+ Years of Lighting Up Festive Smiles</h2>
+                <p class="text-muted">
+                    Sri Kannan Pattasu Ulagam is a pioneer in fireworks retail. Founded in Sivakasi, the fireworks capital of India, we bridge the gap between factory-direct prices and safe, hassle-free doorstep delivery for families nationwide.
+                </p>
+                <div class="row g-3 mt-3">
+                    <div class="col-6">
+                        <div class="p-3 bg-light rounded-3 border-start border-danger border-4">
+                            <h3 class="fw-bold text-danger mb-0">50,000+</h3>
+                            <small class="text-muted">Happy Customers</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 bg-light rounded-3 border-start border-warning border-4">
+                            <h3 class="fw-bold text-warning mb-0">100%</h3>
+                            <small class="text-muted">Green Certified</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80" class="img-fluid rounded-4 shadow-lg" alt="Fireworks Celebration">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container mb-5">
+    <div class="row g-4">
+        <div class="col-lg-7">
+            <div class="card glass-card p-4 border-0 shadow">
+                <h4 class="fw-bold text-dark mb-3"><i class="bi bi-envelope-heart text-danger me-2"></i> Get In Touch</h4>
+                <form id="contactForm">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Your Full Name *</label>
+                            <input type="text" class="form-control" placeholder="e.g. Ramesh Kumar" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Phone Number *</label>
+                            <input type="tel" class="form-control" placeholder="e.g. 9876543210" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Email Address</label>
+                            <input type="email" class="form-control" placeholder="name@example.com">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Your Message *</label>
+                            <textarea rows="4" class="form-control" placeholder="Inquire about bulk orders or custom crackers..." required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-danger btn-lg rounded-pill fw-bold w-100">
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="card glass-card p-4 border-0 shadow mb-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-geo-alt-fill text-danger me-2"></i> Store Headquarters</h5>
+                <p class="text-muted mb-2"><i class="bi bi-building me-2"></i> <strong>Sri Kannan Pattasu Ulagam Retail Ltd.</strong></p>
+                <p class="text-muted mb-2"><i class="bi bi-pin-map me-2"></i> 108 Fireworks Avenue, Sivakasi Road, Virudhunagar, Tamil Nadu - 626123</p>
+                <p class="text-muted mb-2"><i class="bi bi-telephone me-2"></i> +91 98765 43210 / 04562-220000</p>
+                <p class="text-muted mb-0"><i class="bi bi-clock me-2"></i> Mon - Sat: 9:00 AM - 8:00 PM</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-dark text-white pt-5 pb-3 border-top border-warning mt-5">
+    <div class="container text-center text-md-start">
+        <div class="row g-4">
+            <div class="col-lg-5">
+                <h5 class="fw-bold text-warning mb-3">
+                    <i class="bi bi-rocket-takeoff-fill me-2"></i>Sri Kannan Pattasu Ulagam
+                </h5>
+                <p class="text-white-50 fs-7">
+                    Your premier online destination for certified safe, green, and vibrant festive crackers direct from Sivakasi manufacturing hubs.
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <h6 class="fw-bold text-white mb-3">Quick Navigation</h6>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="#home" class="text-white-50 text-decoration-none">Home</a></li>
+                    <li><a href="#products" class="text-white-50 text-decoration-none">Fireworks Catalog</a></li>
+                    <li><a href="#about" class="text-white-50 text-decoration-none">About Store</a></li>
+                    <li><a href="#contact" class="text-white-50 text-decoration-none">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h6 class="fw-bold text-white mb-3">Safety First Commitment</h6>
+                <p class="text-white-50 fs-7">Always burst crackers in open areas under adult supervision. Keep water buckets nearby!</p>
+            </div>
+        </div>
+        <hr class="border-secondary my-4">
+        <div class="text-center fs-7 text-white-50">
+            &copy; 2026 Sri Kannan Pattasu Ulagam. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+<!-- Shopping Cart Offcanvas Drawer -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas">
+    <div class="offcanvas-header bg-dark text-white border-bottom border-warning">
+        <h5 class="offcanvas-title fw-bold text-warning"><i class="bi bi-cart3 me-2"></i> Your Shopping Cart</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column">
+        <div id="cartItemsList" class="flex-grow-1 overflow-y-auto">
+            <!-- Injected via JavaScript -->
+        </div>
+
+        <div class="border-top pt-3 mt-3">
+            <div class="d-flex justify-content-between mb-2">
+                <span class="text-muted">Subtotal</span>
+                <strong id="cartSubtotal">₹ 0.00</strong>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+                <span class="text-muted">Delivery</span>
+                <strong id="cartDelivery" class="text-success">FREE</strong>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between mb-3 fs-5">
+                <strong>Grand Total</strong>
+                <strong id="cartGrandTotal" class="text-danger">₹ 0.00</strong>
+            </div>
+
+            <button class="btn btn-warning btn-lg w-100 rounded-pill fw-bold text-dark shadow" id="btnOpenCheckout" data-bs-toggle="modal" data-bs-target="#checkoutModal" disabled>
+                Proceed To Checkout <i class="bi bi-arrow-right ms-1"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Checkout Modal -->
+<div class="modal fade" id="checkoutModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title fw-bold text-warning"><i class="bi bi-shield-check me-2"></i> Complete Your Order</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-4">
+                <form id="checkoutForm">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Full Name *</label>
+                            <input type="text" id="custName" class="form-control" placeholder="e.g. Rahul Sharma" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Phone Number *</label>
+                            <input type="tel" id="custPhone" class="form-control" placeholder="e.g. 9876543210" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Delivery Address *</label>
+                            <textarea id="custAddress" rows="3" class="form-control" placeholder="House No, Landmark, Street" required></textarea>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">City *</label>
+                            <input type="text" id="custCity" class="form-control" placeholder="e.g. Chennai" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">State *</label>
+                            <input type="text" id="custState" class="form-control" placeholder="e.g. Tamil Nadu" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Pincode *</label>
+                            <input type="text" id="custPincode" class="form-control" placeholder="e.g. 600001" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Payment Method</label>
+                            <div class="form-check p-3 border rounded bg-light">
+                                <input class="form-check-input" type="radio" name="payOpt" id="payCod" checked>
+                                <label class="form-check-label fw-bold" for="payCod">
+                                    Cash On Delivery (COD)
+                                    <small class="d-block text-muted fw-normal">Pay cash directly upon receiving your fireworks package.</small>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <button type="submit" class="btn btn-danger btn-lg w-100 rounded-pill fw-bold shadow">
+                                Confirm & Place Order
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Order History Modal -->
+<div class="modal fade" id="ordersModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title fw-bold text-warning"><i class="bi bi-bag-check me-2"></i> My Order History</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-4" id="ordersHistoryContainer">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Details Modal -->
+<div class="modal fade" id="productModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-4" id="productModalBody">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS Application -->
+<script src="js/app.js"></script>
+</body>
+</html>
